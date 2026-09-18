@@ -1,0 +1,45 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 696 >>
+stream
+BT /F2 24 Tf 1 0 0 1 50 740 Tm (Quarterly Report) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 705 Tm (This document is laid out in a single column, which is the) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 688 Tm (simplest case for any PDF-to-Markdown converter to handle.) Tj ET
+BT /F2 18 Tf 1 0 0 1 50 650 Tm (Key findings) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 618 Tm (- Revenue grew across all three regions.) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 600 Tm (- Headcount stayed flat for the second quarter.) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 582 Tm (- Support ticket volume dropped by a fifth.) Tj ET
+BT /F2 18 Tf 1 0 0 1 50 544 Tm (Next steps) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 512 Tm (The team will publish the full breakdown next month.) Tj ET
+
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000348 00000 n 
+0000000450 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1197
+%%EOF

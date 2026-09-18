@@ -1,0 +1,132 @@
+{
+  "note": "Measured output of one PDF-to-Markdown converter (pdfmdtools.com, 17 September 2026) against the corpus in tests/. Output strings are verbatim. A different converter will produce different results \u2014 that is the point of the corpus. Field 'status' is the string the tool reported; 'output' is what it wrote to the output box.",
+  "converter": {
+    "name": "pdfmdtools.com",
+    "engine": "PDF.js 3.11.174",
+    "runs": "client-side, in the browser",
+    "measured": "2026-09-17"
+  },
+  "results": [
+    {
+      "file": "01-single-column.pdf",
+      "intent": "plain single-column document with a title, two subheadings and a bullet list",
+      "status": "Done",
+      "output": "# Quarterly Report\n\nThis document is laid out in a single column, which is the\nsimplest case for any PDF-to-Markdown converter to handle.\n\n## Key findings\n- Revenue grew across all three regions.\n- Headcount stayed flat for the second quarter.\n- Support ticket volume dropped by a fifth.\n\n## Next steps\n\nThe team will publish the full breakdown next month.\n"
+    },
+    {
+      "file": "02-two-column-shared-baseline.pdf",
+      "intent": "two columns of four lines each, sharing the same four baselines",
+      "status": "Done",
+      "output": "## Two Column Layout\n\nLeft column, line one. Right column, line one.\nLeft column, line two. Right column, line two.\nLeft column, line three. Right column, line three.\nLeft column, line four. Right column, line four.\n"
+    },
+    {
+      "file": "03-table.pdf",
+      "intent": "a four-row, three-column table; cells on each row share a baseline",
+      "status": "Done",
+      "output": "## Price List\n\nItem Qty Unit price\nWidget 10 1.50\nGadget 5 9.99\nBracket 22 0.75\n"
+    },
+    {
+      "file": "04-no-text-layer.pdf",
+      "intent": "a rectangle and nothing else \u2014 no text operators at all",
+      "status": "This PDF has no text layer (it may be a scanned or image-based PDF). Cannot extract text.",
+      "output": null,
+      "note": "Error, not output. The output panel stays hidden, so there is no empty file to mistake for a successful conversion."
+    },
+    {
+      "file": "05-two-column-offset.pdf",
+      "intent": "two columns where the right one starts four lines lower, so they overlap for only three lines",
+      "status": "Done",
+      "output": "## Offset Two Column Layout\n\nLeft column, line one.\nLeft column, line two.\nLeft column, line three.Right column, line one.\nLeft column, line four.Right column, line two.\nLeft column, line five.Right column, line three.\n"
+    },
+    {
+      "file": "06-three-column.pdf",
+      "intent": "three columns of three lines each, sharing baselines",
+      "status": "Done",
+      "output": "# Three Column Layout\n\nAlpha one. Beta one. Gamma one.\nAlpha two. Beta two. Gamma two.\nAlpha three. Beta three. Gamma three.\n"
+    },
+    {
+      "file": "07-bold-headings-body-size.pdf",
+      "intent": "headings marked out only by bold weight, at exactly the body font size",
+      "status": "Done",
+      "output": "Bold Headings At Body Size\nThis paragraph is body text set in the regular weight.\nIt exists to establish what the body size of this page is.\nSection One\nThe heading above is bold but exactly the same size as the\nbody text, which is the case this test is built to measure.\nSection Two\nA second bold heading, again at the body font size, to see\nwhether either of them is recognised as a heading at all.\n"
+    },
+    {
+      "file": "08-running-header-2-pages.pdf",
+      "intent": "a two-page document with the same header and footer text on both pages",
+      "status": "Done",
+      "output": "CONFIDENTIAL - INTERNAL DRAFT\nThis is the first page of a two page document.\nIt carries a running header at the top of every page.\nIt also carries a page number in the footer.\nPage 1 of 2\n\n---\n\nCONFIDENTIAL - INTERNAL DRAFT\nThis is the second page of the same document.\nThe header and footer repeat here, exactly as before.\nIn Markdown output they arrive as ordinary paragraphs.\nPage 2 of 2\n"
+    },
+    {
+      "file": "09-hyphenated-breaks.pdf",
+      "intent": "words broken across lines with a trailing hyphen",
+      "status": "Done",
+      "output": "## Hyphenated Line Breaks\n\nThe configuration file is stored in the applica-\ntion directory, which is created on first launch\nand can be relocated by setting the environ-\nment variable before the service starts.\n"
+    },
+    {
+      "file": "10-toc-wide-gap.pdf",
+      "intent": "table-of-contents lines: a label at the left margin and a page number at the right",
+      "status": "Done",
+      "output": "## Table Of Contents\n\nIntroduction 3\nInstallation 11\nConfiguration 24\nTroubleshooting 48\n"
+    },
+    {
+      "file": "11-scan-styled.pdf",
+      "intent": "grey bars standing in for a scanned page; no text operators",
+      "status": "This PDF has no text layer (it may be a scanned or image-based PDF). Cannot extract text.",
+      "output": null
+    },
+    {
+      "file": "12-mixed-worst-case.pdf",
+      "intent": "one page carrying a title, a two-column paragraph and a table",
+      "status": "Done",
+      "output": "# Mixed Layout Page\n\nLeft paragraph, line one. Right paragraph, line one.\nLeft paragraph, line two. Right paragraph, line two.\n\n### Summary Table\n\nRegion Revenue Growth\nNorth 1,200 8%\nSouth 980 -2%\nEast 1,540 12%\nClosing paragraph under the table.\n"
+    },
+    {
+      "file": "13-heading-thresholds.pdf",
+      "intent": "nine 12pt body lines plus one line at each of 13, 15, 18, 21, 21.6 and 22pt",
+      "status": "Done",
+      "output": "# Threshold Test\n\nBody line one at twelve point.\nBody line two at twelve point.\nBody line three at twelve point.\nBody line four at twelve point.\nBody line five at twelve point.\nBody line six at twelve point.\nBody line seven at twelve point.\nBody line eight at twelve point.\nBody line nine at twelve point.\nHeading at thirteen point\n\n### Heading at fifteen point\n\n## Heading at eighteen point\n\n## Heading at twenty-one point\n\n## Heading at twenty-one point six\n\n# Heading at twenty-two point\n",
+      "heading_measured": [
+        {"font_size": 13, "ratio_to_body": 1.0833, "markdown": "plain paragraph"},
+        {"font_size": 15, "ratio_to_body": 1.25, "markdown": "H3"},
+        {"font_size": 18, "ratio_to_body": 1.5, "markdown": "H2"},
+        {"font_size": 21, "ratio_to_body": 1.75, "markdown": "H2"},
+        {"font_size": 21.6, "ratio_to_body": 1.8, "markdown": "H2"},
+        {"font_size": 22, "ratio_to_body": 1.8333, "markdown": "H1"}
+      ]
+    },
+    {
+      "file": "14a-row-major.pdf",
+      "intent": "two columns sharing baselines; text operators written row by row",
+      "status": "Done",
+      "output": "## Row Major\n\nLeft column, line one. Right column, line one.\nLeft column, line two. Right column, line two.\nLeft column, line three. Right column, line three.\nLeft column, line four. Right column, line four.\n",
+      "pair": "14b-column-major.pdf",
+      "pair_variable": "the order text operators are written in the content stream"
+    },
+    {
+      "file": "14b-column-major.pdf",
+      "intent": "identical geometry to 14a; text operators written column by column",
+      "status": "Done",
+      "output": "## Column Major\n\nLeft column, line one.Right column, line one.\nLeft column, line two.Right column, line two.\nLeft column, line three.Right column, line three.\nLeft column, line four.Right column, line four.\n",
+      "pair": "14a-row-major.pdf",
+      "pair_variable": "the order text operators are written in the content stream"
+    },
+    {
+      "file": "15-mixed-first-page-text.pdf",
+      "intent": "page 1 has a text layer, page 2 is a scan",
+      "status": "Done",
+      "output": "## Mixed Document\n\nThis page has a real text layer.\nIt is the first page of a two page document.\nThe second page is a scan with no text at all.\n\n---\n"
+    },
+    {
+      "file": "16-mixed-middle-page-text.pdf",
+      "intent": "page 1 is a scan, page 2 has text, page 3 is a scan",
+      "status": "Done",
+      "output": "---\n\n## Page Two\n\nOnly the middle page of this document has text.\nThe first and third pages are scans.\nNothing in the output tells you that.\n\n---\n"
+    },
+    {
+      "file": "17-compressed-stream.pdf",
+      "intent": "same shape as 01, but the content stream is FlateDecode-compressed",
+      "status": "Done",
+      "output": "## Compressed Stream Document\n\nThe content stream of this page is FlateDecode-compressed,\nwhich is what almost every real PDF in the world uses.\n\n## Key findings\n- Expansion happens before parsing, so results should match.\n- A parser that mishandles the filter fails here and nowhere else.\n"
+    }
+  ]
+}

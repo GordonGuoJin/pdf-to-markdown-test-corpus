@@ -1,0 +1,74 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 8 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Length 296 >>
+stream
+BT /F2 20 Tf 1 0 0 1 50 730 Tm (Mixed Document) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 690 Tm (This page has a real text layer.) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 670 Tm (It is the first page of a two page document.) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 650 Tm (The second page is a scan with no text at all.) Tj ET
+
+endstream
+endobj
+8 0 obj
+<< /Length 409 >>
+stream
+0.9 0.9 0.9 rg
+30 60 552 680 re f
+0.7 0.7 0.7 rg
+60 700 460 6 re f
+60 672 460 6 re f
+60 644 460 6 re f
+60 616 460 6 re f
+60 588 460 6 re f
+60 560 460 6 re f
+60 532 460 6 re f
+60 504 460 6 re f
+60 476 460 6 re f
+60 448 460 6 re f
+60 420 460 6 re f
+60 392 460 6 re f
+60 364 460 6 re f
+60 336 460 6 re f
+60 308 460 6 re f
+60 280 460 6 re f
+60 252 460 6 re f
+60 224 460 6 re f
+60 196 460 6 re f
+60 168 460 6 re f
+
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000393 00000 n 
+0000000490 00000 n 
+0000000592 00000 n 
+0000000939 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+1399
+%%EOF

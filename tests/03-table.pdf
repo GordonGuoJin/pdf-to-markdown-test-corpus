@@ -1,0 +1,49 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 591 >>
+stream
+BT /F2 20 Tf 1 0 0 1 50 740 Tm (Price List) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 700 Tm (Item) Tj ET
+BT /F1 12 Tf 1 0 0 1 220 700 Tm (Qty) Tj ET
+BT /F1 12 Tf 1 0 0 1 340 700 Tm (Unit price) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 680 Tm (Widget) Tj ET
+BT /F1 12 Tf 1 0 0 1 220 680 Tm (10) Tj ET
+BT /F1 12 Tf 1 0 0 1 340 680 Tm (1.50) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 660 Tm (Gadget) Tj ET
+BT /F1 12 Tf 1 0 0 1 220 660 Tm (5) Tj ET
+BT /F1 12 Tf 1 0 0 1 340 660 Tm (9.99) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 640 Tm (Bracket) Tj ET
+BT /F1 12 Tf 1 0 0 1 220 640 Tm (22) Tj ET
+BT /F1 12 Tf 1 0 0 1 340 640 Tm (0.75) Tj ET
+
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000348 00000 n 
+0000000450 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1092
+%%EOF

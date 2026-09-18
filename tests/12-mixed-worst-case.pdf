@@ -1,0 +1,55 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 990 >>
+stream
+BT /F2 22 Tf 1 0 0 1 50 750 Tm (Mixed Layout Page) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 715 Tm (Left paragraph, line one.) Tj ET
+BT /F1 12 Tf 1 0 0 1 320 715 Tm (Right paragraph, line one.) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 697 Tm (Left paragraph, line two.) Tj ET
+BT /F1 12 Tf 1 0 0 1 320 697 Tm (Right paragraph, line two.) Tj ET
+BT /F2 15 Tf 1 0 0 1 50 655 Tm (Summary Table) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 625 Tm (Region) Tj ET
+BT /F1 11 Tf 1 0 0 1 230 625 Tm (Revenue) Tj ET
+BT /F1 11 Tf 1 0 0 1 360 625 Tm (Growth) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 607 Tm (North) Tj ET
+BT /F1 11 Tf 1 0 0 1 230 607 Tm (1,200) Tj ET
+BT /F1 11 Tf 1 0 0 1 360 607 Tm (8%) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 589 Tm (South) Tj ET
+BT /F1 11 Tf 1 0 0 1 230 589 Tm (980) Tj ET
+BT /F1 11 Tf 1 0 0 1 360 589 Tm (-2%) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 571 Tm (East) Tj ET
+BT /F1 11 Tf 1 0 0 1 230 571 Tm (1,540) Tj ET
+BT /F1 11 Tf 1 0 0 1 360 571 Tm (12%) Tj ET
+BT /F1 12 Tf 1 0 0 1 50 520 Tm (Closing paragraph under the table.) Tj ET
+
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000348 00000 n 
+0000000450 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1491
+%%EOF
