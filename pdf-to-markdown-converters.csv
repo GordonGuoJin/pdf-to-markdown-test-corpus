@@ -1,11 +1,11 @@
 ﻿site,url,input_formats,output_formats,ocr,account_required,batch_support,stated_size_limit,notes
-iLovePDF,https://www.ilovepdf.com/pdf_to_markdown,PDF,Markdown (md),separate tool not integrated,has login/signup but does not state whether required,not stated,not stated,
-JustMarkdown,https://justmarkdown.net/,PDF plus JPG/PNG/DOCX/Excel/URL,Markdown (md) and ZIP,yes (PP-StructureV3 model),no (signup offered for credits),yes (multi-file upload ZIP output),100 MB per file; no page limit,
-MD To,https://md-to.com/,PDF,Markdown (md) and Rich Text,"no (states scanned files cannot be processed)",no,not stated,"free unlimited no watermark; Pro removes ads",
+iLovePDF,https://www.ilovepdf.com/pdf-to-markdown,PDF,Markdown (md),separate tool not integrated,has login/signup but does not state whether required,not stated,not stated,
+JustMarkdown,https://justmarkdown.net/,PDF plus JPG/PNG/DOCX/Excel/URL,Markdown (md) and ZIP,yes (PP-StructureV3 model),no (signup offered for credits),yes (multi-file upload ZIP output),100 MB per file; no page limit,"RE-CHECKED 2026-09-21: domain no longer resolves (NXDOMAIN), site is dead"
+MD To,https://md-to.com/,PDF,Markdown (md) and Rich Text,no (states scanned files cannot be processed),no,not stated,free unlimited no watermark; Pro removes ads,
 Papel Tools,https://papeltools.com/,PDF,Markdown,yes (English Spanish Portuguese),no,not stated,200 MB per file; no page limit,100% in-browser
 Craft Markdown,https://craftmarkdown.com/,PDF DOCX HTML JSON XML CSV TXT RTF MD,Markdown,mentioned with limitations,no,not stated,no limit stated,
-marklipi,https://marklipi.com/,PDF text layer only,"Markdown","no (does not support scans or images)",no,not stated,25 MB per file; 10/minute 100/day,"higher limits from $5; claims 60-90% token reduction"
+marklipi,https://marklipi.com/,PDF text layer only,Markdown,no (does not support scans or images),no,not stated,25 MB per file; 10/minute 100/day,higher limits from $5; claims 60-90% token reduction
 PDF Markdown,https://pdfmarkdown.com/,PDF,Markdown (md) and ZIP,yes (multiple languages auto/full-page/off),no,yes (multi-file ZIP download),none stated,
 MD Converter,https://mdconverter.com/,PDF Word Excel PowerPoint CSV,Markdown (md),FAQ not expanded,no,not stated,no limit stated,in-browser conversion
-MarkdownTools,https://markdowntools.com/,PDF,Markdown,yes (for scanned files),not stated,"article says MarkItDown suits batch; online tool is for one-off","not stated","article covers MarkItDown and pymupdf4llm as alternatives"
-pdf2md,https://github.com/mrmps/pdf2md,PDF,Markdown,no,no (GitHub login only for GitHub itself),not stated,"suggests staying under 10 MB",100% in-browser; open source; no upload; works offline
+MarkdownTools,https://markdowntools.com/,PDF,Markdown,yes (for scanned files),not stated,article says MarkItDown suits batch; online tool is for one-off,not stated,article covers MarkItDown and pymupdf4llm as alternatives
+pdf2md,https://github.com/mrmps/pdf2md,PDF,Markdown,no,no (GitHub login only for GitHub itself),not stated,suggests staying under 10 MB,100% in-browser; open source; no upload; works offline
