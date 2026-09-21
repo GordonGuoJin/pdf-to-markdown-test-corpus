@@ -142,10 +142,13 @@ def write(name, pages, compress=False):
 #   1. One behaviour per file. If a result is surprising you should be able to
 #      point at the single thing that caused it.
 #
-#   2. Where two files are compared, they are identical except for one variable.
-#      t14a/t14b are the clearest example: same page size, same fonts, same
-#      coordinates, same strings — only the order the text is written in the
-#      content stream differs. That single variable changes the output.
+#   2. Where two files are compared, they differ in one variable only.
+#      t14a/t14b are the clearest example: same page size, same font, same
+#      coordinates, the same eight body strings and the same nine text items —
+#      only the order the text is written in the content stream differs. That
+#      single variable changes the output. The one string that does differ is
+#      the heading, which is labelled "Row Major" / "Column Major" so the two
+#      results can be told apart.
 
 def build():
     os.makedirs(OUT, exist_ok=True)

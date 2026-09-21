@@ -43,9 +43,12 @@ Then open your converter, drop in the files from `tests/`, and compare against
 
 Two rules apply to all of them. Each file isolates **one** behaviour, so a
 surprising result points at a single cause. And where two files are compared they
-are identical except for one variable — `14a`/`14b` are the clearest case: same
-page size, same fonts, same coordinates, same strings, and the only difference is
-the order the text operators appear in the content stream.
+differ in one variable only — `14a`/`14b` are the clearest case: same page size,
+same font, same coordinates, the same four left-column and four right-column
+strings, and the same nine text items in total. The only difference is the order
+those text operators appear in the content stream. (Each file does carry its own
+heading, `Row Major` and `Column Major`, so that you can tell at a glance which
+one produced a given result; that heading is the one string that differs.)
 
 ## The pair worth looking at first
 
